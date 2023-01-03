@@ -1,1 +1,4 @@
-  vless://bebfac30-c446-4858-a3de-910b9e8942b9@alzheimer.duyimin.com:443?encryption=none&security=tls&type=ws&host=alzheimer.duyimin.com&sni=alzheimer.duyimin.com&path=/alzheimerws#alzheimer.duyimin.com_VLESS_WS
+ vless://772c56cb-c10b-4830-97e5-ea8d7fab23dd@Ronaldo.z104866.repl.co:443?host=Ronaldo.z104866.repl.co&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=Ronaldo.z104866.repl.co#REP-RONALDO
+vless://a39e2c15-8b24-43b4-8f6d-c292450fb42d@Messi.z104866.repl.co:443?host=Messi.z104866.repl.co&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=Messi.z104866.repl.co#REP-MESSI
+vless://89da1dc7-e84c-453f-9450-3b4ebfebe461@Neymar.z104866.repl.co:443?host=Neymar.z104866.repl.co&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=Neymar.z104866.repl.co#REP-NEYMAR
+vless://19cacd8c-d962-42b9-b8fb-1163603fc5a7@Mbappe.z104866.repl.co:443?host=Mbappe.z104866.repl.co&path=%2F%3Fed%3D2048&type=ws&encryption=none&security=tls&sni=Mbappe.z104866.repl.co#REP-MBAPPE
