@@ -1,4 +1,0 @@
-vless://aad99e54-361e-49c0-a928-1f895e2cb53c@Ronaldo.z104866.repl.co:443?encryption=none&security=tls&type=ws&host=Ronaldo.z104866.repl.co&path=/aad99e54-361e-49c0-a928-1f895e2cb53c-vl#REP-VLESS-Ronaldo
-vless://d2ca3841-b9b3-41d8-a54b-1cef563d8565@Neymar.z104866.repl.co:443?encryption=none&security=tls&type=ws&host=Neymar.z104866.repl.co&path=/d2ca3841-b9b3-41d8-a54b-1cef563d8565-vl#REP-VLESS-Neymar
-vless://cf0a2d79-207b-4042-9e7b-ae044ac04987@Messi.z104866.repl.co:443?encryption=none&security=tls&type=ws&host=Messi.z104866.repl.co&path=/cf0a2d79-207b-4042-9e7b-ae044ac04987-vl#REP-VLESS-Messi
-vless://fca2efe9-cd6b-48e0-a1d2-c0c5dde0e797@alzheimer.duyimin.com:443?encryption=none&security=tls&type=ws&host=alzheimer.duyimin.com&sni=alzheimer.duyimin.com&path=/alzheimerws#RE-VLESS-Alzheimer
