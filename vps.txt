@@ -7,7 +7,7 @@ vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-vlt-coca.duyimin.com:48864?head
 vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-vlt-pepsi.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_VLT_PEPSI
 
 DMIT
-hysteria://prometheus.sky-infosys.com:59981?&protocol=udp&auth=Opep51_-&peer=prometheus.sky-infosys.com&insecure=0&upmbps=10&downmbps=50&alpn=h3&obfsParam=#Hysteria-DMIT-Prometheus
+hysteria://prometheus.sky-infosys.com:59981?&protocol=udp&auth=Opep51_-&peer=prometheus.sky-infosys.com&insecure=0&upmbps=10&downmbps=50&alpn=h3&obfsParam=#Hysteria_DMIT_PROMETHEUS_20240820
 
 DJV
 vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-djv-tokyo.maze-maker.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_DJV_TOKYO
