@@ -12,3 +12,116 @@ hysteria://prometheus.sky-infosys.com:59981?&protocol=udp&auth=Opep51_-&peer=pro
 DJV
 vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-djv-tokyo.maze-maker.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_DJV_TOKYO
 vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-djv-seoul.maze-maker.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_DJV_SEOUL
+
+
+
+检测是否解锁奈飞：
+#项目地址：https://github.com/sjlleo/netflix-verify
+#下载检测解锁程序
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf
+#执行
+./nf
+#通过代理执行
+./nf -proxy socks5://127.0.0.1:30000
+WARP代理解锁
+#安装WARP仓库GPG 密钥：
+curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+#添加WARP源：
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+#更新APT缓存：
+apt update
+#安装WARP：
+apt install cloudflare-warp
+#注册WARP：
+warp-cli register
+#设置为代理模式（一定要先设置）：
+warp-cli set-mode proxy
+#连接WARP：
+warp-cli connect
+#查询代理后的IP地址：
+curl ifconfig.me --proxy socks5://127.0.0.1:40000
+#xray 完整配置模版：
+{
+  "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 62789,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "tag": "api"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "netflix_proxy",
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "127.0.0.1",
+            "port": 40000
+          }
+        ]
+      }
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }
+  ],
+  "policy": {
+    "system": {
+      "statsInboundDownlink": true,
+      "statsInboundUplink": true
+    }
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "netflix_proxy",
+        "domain": [
+          "geosite:netflix",
+          "geosite:disney"
+        ]
+      },
+      {
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "blocked",
+        "type": "field"
+      },
+      {
+        "outboundTag": "blocked",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
