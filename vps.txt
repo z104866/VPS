@@ -1,12 +1,6 @@
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-vms-hkg.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_VMS_HKG
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-bwg-jpn.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_BWG_JPN
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-bwg-usa.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_BWG_USA
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-vlt-coca.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_VLT_COCA
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-vlt-pepsi.duyimin.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_VLT_PEPSI
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-djv-tokyo.maze-maker.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_DJV_TOKYO
-vless://bb546ee4-6bde-4c19-db65-021522f56c13@vps-djv-seoul.maze-maker.com:48864?headerType=none&type=tcp&encryption=none&fp=chrome&pbk=omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE&sid=fcaf45ab&spx=&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com#VLESS_DJV_SEOUL
-hysteria://prometheus.sky-infosys.com:59981?&protocol=udp&auth=Opep51_-&peer=prometheus.sky-infosys.com&insecure=0&upmbps=10&downmbps=50&alpn=h3&obfsParam=#Hysteria_DMIT_PROMETHEUS
-
+vless://be6775c6-18e7-4571-b202-d8eeb43d1f86@vps-bwg-lax.maze-maker.com:48864?headerType=none&type=raw&encryption=none&fp=chrome&pbk=1pjDYPU0dxR-WeX5kyL3e0B12y8RiRTrp41aNksuHRU&sid=f79cfafa094649e9&spx=%2F&security=reality&alpn=default&sni=yahoo.com#VPS-BWG-LAX
+vless://2a502a5c-4c01-4213-9a18-8836eaa713ca@vps-bwg-osk.maze-maker.com:48864?headerType=none&type=raw&encryption=none&fp=chrome&pbk=fvMSV3KGpgvGBjtBUU-AU0MwDQgeIyJ-EILA-7t-cwM&sid=8908df5e48&spx=%2F&security=reality&alpn=default&sni=yahoo.com#VPS-BWG-OSK
+vless://8d990061-3ed2-445e-923a-b17ea6445345@vps-vlt-tky.maze-maker.com:48864?headerType=none&type=raw&encryption=none&fp=chrome&pbk=0adTH-Vp4i4yFeX8oLO9aOqncWPkeuTbmIhzgxdOt3A&sid=1c4a9b02ad6a&spx=%2F&security=reality&alpn=default&sni=yahoo.com#VPS-VLT-TKY
 
 
 
