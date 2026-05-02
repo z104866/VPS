@@ -1,131 +1,19 @@
-vless://15b21c84-c3f0-4265-cade-0fd6aacb293b@vps-usa.maze-maker.com:443?sid=799c4dce&fp=chrome&sni=amd.com&flow=xtls-rprx-vision&type=tcp&security=reality&pbk=Cj9jYbCre-jcWl6Bt4dyaWbEUPs-bOVY8IziRlg3ZXE#bwg-usa-vless
-hysteria2://Zo8meaVfKu@vps-usa.maze-maker.com:443?alpn=h3,h2,http/1.1&fastopen=0&security=tls&insecure=1&sni=go.microsoft.com#bwg-usa-hysteria2
-vless://9bf99b31-4163-45a9-b2c7-989598c02247@vps-jpn.maze-maker.com:443?flow=xtls-rprx-vision&type=tcp&security=reality&pbk=2nuzDV71Pucu6U31G2S-lObFt1RO_7WsJQakzYqrAlI&sid=&fp=chrome&sni=amd.com#bwg-jpn-vless
-hysteria2://2LLBuu8nDz@vps-jpn.maze-maker.com:443?insecure=1&sni=www.apple.com&alpn=h3,h2,http/1.1&fastopen=0&security=tls#bwg-jpn-hysteria2
-ss://YWVzLTI1Ni1nY206OHdTbFM5MmVFVkEvYkdnNFA1VnF0Mnlta08raWlqZkcrSTlZK3lGRnlyWT1AMTgzLjYwLjEyMy41Njo0ODExMQ#bwg-jpn-ss
-ss://YWVzLTI1Ni1nY206b21YVmJFUk5YRmdtSnFPN3hqNm9uQmdHbWU5UFA3TXJBcjBBSVE2VHhiZz1AMTgzLjYwLjEyMy41Njo0ODIyMg#bwg-usa-ss
+vless://bb870c2d-6b79-4aef-9e82-4a82275a9854@vps-bwg-usa.maze-maker.com:443?type=xhttp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=i2woqyB_equDtt2Vr4QPgehnb4quPd8aD8SsYuqFeyo&sid=0123456789abcdef&spx=/&host=www.microsoft.com&path=/&mode=auto&encryption=none#BWG-USA-VLESS
 
+vless://13233743-204d-41d6-a5f9-d82f4d7d3c90@vps-vmiss-usa.maze-maker.com:443?type=xhttp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=i2woqyB_equDtt2Vr4QPgehnb4quPd8aD8SsYuqFeyo&sid=0123456789abcdef&spx=/&host=www.microsoft.com&path=/&mode=auto&encryption=none#VMISS-USA-VLESS
 
+vless://33bd10ce-b044-4b7d-8d24-4843d52a8f73@vps-orange-jpn.maze-maker.com:443?type=xhttp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=i2woqyB_equDtt2Vr4QPgehnb4quPd8aD8SsYuqFeyo&sid=0123456789abcdef&spx=/&host=www.microsoft.com&path=/&mode=auto&encryption=none#ORANGE-JPN-VLESS
 
+vless://c80a976e-75b4-4b13-97ae-5ac2da969cdf@vps-vmshell-hkg.maze-maker.com:443?type=xhttp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=i2woqyB_equDtt2Vr4QPgehnb4quPd8aD8SsYuqFeyo&sid=0123456789abcdef&spx=/&host=www.microsoft.com&path=/&mode=auto&encryption=none#VMSHELL-HKG-VLESS
 
+vless://d436e6fd-62e8-40d3-9688-c94f923adfcb@vps-rcv-hkg.maze-maker.com:443?type=xhttp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=i2woqyB_equDtt2Vr4QPgehnb4quPd8aD8SsYuqFeyo&sid=0123456789abcdef&spx=/&host=www.microsoft.com&path=/&mode=auto&encryption=none#RCV-HKG-VLESS
 
+hysteria2://mRmdkn1voV@vps-bwg-usa.maze-maker.com:8443?sni=vps-bwg-usa.maze-maker.com&alpn=h3&insecure=0#BWG-USA-HY2
 
+hysteria2://s12fFiUvpP8B@vps-vmiss-usa.maze-maker.com:8443?sni=vps-vmiss-usa.maze-maker.com&alpn=h3&insecure=0#VMISS-USA-HY2
 
+hysteria2://XKuFgZiq27oj@vps-orange-jpn.maze-maker.com:8443?sni=vps-orange-jpn.maze-maker.com&alpn=h3&insecure=0#ORANGE-JPN-HY2
 
+hysteria2://w8RXDdaAd1cK@vps-vmshell-hkg.maze-maker.com:8443?sni=vps-vmshell-hkg.maze-maker.com&alpn=h3&insecure=0#VMSHELL-HKG-HY2
 
-
-
-
-
-检测是否解锁奈飞：
-#项目地址：https://github.com/sjlleo/netflix-verify
-#下载检测解锁程序
-wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf
-#执行
-./nf
-#通过代理执行
-./nf -proxy socks5://127.0.0.1:30000
-WARP代理解锁
-#安装WARP仓库GPG 密钥：
-curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-#添加WARP源：
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-#更新APT缓存：
-apt update
-#安装WARP：
-apt install cloudflare-warp
-#注册WARP：
-warp-cli register
-#设置为代理模式（一定要先设置）：
-warp-cli set-mode proxy
-#连接WARP：
-warp-cli connect
-#查询代理后的IP地址：
-curl ifconfig.me --proxy socks5://127.0.0.1:40000
-#xray 完整配置模版：
-{
-  "api": {
-    "services": [
-      "HandlerService",
-      "LoggerService",
-      "StatsService"
-    ],
-    "tag": "api"
-  },
-  "inbounds": [
-    {
-      "listen": "127.0.0.1",
-      "port": 62789,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "127.0.0.1"
-      },
-      "tag": "api"
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "tag": "netflix_proxy",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 40000
-          }
-        ]
-      }
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {},
-      "tag": "blocked"
-    }
-  ],
-  "policy": {
-    "system": {
-      "statsInboundDownlink": true,
-      "statsInboundUplink": true
-    }
-  },
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "outboundTag": "netflix_proxy",
-        "domain": [
-          "geosite:netflix",
-          "geosite:disney"
-        ]
-      },
-      {
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "blocked",
-        "type": "field"
-      },
-      {
-        "outboundTag": "blocked",
-        "protocol": [
-          "bittorrent"
-        ],
-        "type": "field"
-      }
-    ]
-  },
-  "stats": {}
-}
-
-
+hysteria2://vbOepSqrRCC2@vps-rcv-hkg.maze-maker.com:8443?sni=vps-rcv-hkg.maze-maker.com&alpn=h3&insecure=0#RCV-HKG-HY2
